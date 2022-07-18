@@ -1,0 +1,26 @@
+<ProxyEndpoint name="person">
+	<PreFlow name="PreFlow">
+		<Request>
+			<Step>
+				<Condition>
+					!(request.path MatchesPath "/api/person/xml" or request.path MatchesPath "/api/person/json")	
+				</Condition>
+				<Name>commons</Name>
+			</Step>
+		</Request>
+		<Response>
+			<Step>
+				<Condition>
+					!(request.path MatchesPath "/api/person/xml")    
+				</Condition>
+				<Name>XMLtoJSON</Name>
+			</Step>
+		</Response>
+   </PreFlow>
+	<HTTPProxyConnection>
+		<BasePath>/api/person</BasePath>
+	</HTTPProxyConnection>
+	<RouteRule name="person-route">
+		<TargetEndpoint>person-mock</TargetEndpoint>
+	</RouteRule>
+</ProxyEndpoint>

@@ -1,0 +1,22 @@
+<ProxyEndpoint name="helloworld">
+	<PreFlow name="PreFlow">
+		<Request>
+			<Step>
+				<Condition>
+					!(request.path MatchesPath "/api/helloworld")    
+				</Condition>
+				<Name>commons</Name>
+			</Step>
+			<Step>
+				<Name>SpikeArrestVal</Name>
+			</Step>
+		</Request>
+   </PreFlow>
+
+	<HTTPProxyConnection>
+		<BasePath>/api/helloworld</BasePath>
+	</HTTPProxyConnection>
+	<RouteRule name="helloworld-route">
+		<TargetEndpoint>helloworld-dev</TargetEndpoint>
+	</RouteRule>
+</ProxyEndpoint>

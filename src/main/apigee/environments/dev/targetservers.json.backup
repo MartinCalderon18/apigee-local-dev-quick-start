@@ -1,0 +1,10 @@
+[
+  {
+    "enabled": true,
+    "name": "apigee",
+    "description": "Mock Apigee Target Server",
+    "host": "mocktarget.apigee.net",
+    "port": 443,
+    "protocol": "HTTP"
+  }
+]

@@ -1,0 +1,8 @@
+<TargetEndpoint name="person-mock">
+	<HTTPTargetConnection>
+		<URL>https://mocktarget.apigee.net</URL>
+		<!-- <LoadBalancer>
+			<Server name="apigee-targetserver"/>
+		</LoadBalancer> -->
+	</HTTPTargetConnection>
+</TargetEndpoint>

@@ -1,0 +1,17 @@
+[
+  {
+    "developerId": "9e35a7bb-201a-42b2-9ddb-70874a871ff2",
+    "userName": "Local Developtment",
+    "firstName": "Developer",
+    "lastName": "Developer",
+    "email": "localdevelop@mail.com",
+    "status": "active",
+    "attributes": [
+      {
+        "name": "sample_attribute_0",
+        "value": "sample_attribute_value_0"
+      }
+    ],
+    "apps": []
+  }
+]

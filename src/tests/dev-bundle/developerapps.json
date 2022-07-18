@@ -1,0 +1,18 @@
+[
+  {
+    "attributes": [
+      {
+        "name": "sample_attribute_0",
+        "value": "sample_attribute_value_0"
+      }
+    ],
+    "developerEmail": "localdevelop@mail.com",
+    "name": "SimpleClient",
+    "displayName": "SimpleClient App",
+    "callbackUrl": "",
+    "apiProducts": [
+      "myproduct"
+    ],
+    "expiryType": "never"
+  }
+]

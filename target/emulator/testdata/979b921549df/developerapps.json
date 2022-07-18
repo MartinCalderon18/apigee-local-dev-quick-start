@@ -1,0 +1,35 @@
+[
+  {
+    "name": "SimpleClient",
+    "appId": "ef5f3770-42d0-43e9-8ce5-4c0873a105c6",
+    "callbackUrl": "",
+    "status": "approved",
+    "attributes": [
+      {
+        "name": "sample_attribute_0",
+        "value": "sample_attribute_value_0"
+      }
+    ],
+    "credentials": [
+      {
+        "consumerKey": "XBPBDvjv5HLK2hAjKJKI3nmfAMeCBVDA",
+        "consumerSecret": "3RBon4Ug8m2kyb8m",
+        "apiProducts": [
+          {
+            "apiproduct": "myproduct",
+            "status": "approved"
+          }
+        ],
+        "status": "approved",
+        "attributes": [],
+        "scopes": [],
+        "issuedAt": 1653538386816,
+        "expiresAt": -1
+      }
+    ],
+    "apiProducts": [],
+    "scopes": [],
+    "appType": "Developer",
+    "developerId": "9e35a7bb-201a-42b2-9ddb-70874a871ff2"
+  }
+]

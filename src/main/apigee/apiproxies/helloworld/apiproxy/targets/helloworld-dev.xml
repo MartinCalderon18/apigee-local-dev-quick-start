@@ -1,0 +1,5 @@
+<TargetEndpoint name="helloworld-dev">
+	<HTTPTargetConnection>
+		<URL>https://mocktarget.apigee.net</URL>
+	</HTTPTargetConnection>
+</TargetEndpoint>

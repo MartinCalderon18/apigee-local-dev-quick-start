@@ -1,0 +1,6 @@
+{
+  "proxies": [
+    "helloworld", "person"
+  ],
+  "sharedflows": ["commons"]
+}
